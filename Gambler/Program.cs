@@ -4,9 +4,12 @@ namespace Gambler
 {
     class Program
     {
+        
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            GamblingBet gamblingBet = new GamblingBet();
+            gamblingBet.Add();
+            
         }
     }
 }
